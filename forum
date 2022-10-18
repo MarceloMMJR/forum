@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="UTF-8">
+	<body>
+		<h2>Signos</h2>
+		<form action="signo.php">
+			<label for="nome">Nome:</label><br>
+			<input type="text" name="nome" required><br>
+			<label for="nascimento">Nascimento:</label><br>
+			<input type="date" name="nascimento" required><br><br>
+			<input type="submit" value="Ok">
+		</form> 
+		<p>Preencha os dados e veja informações sobre seu signo.</p>
+	</body>
+</html>
